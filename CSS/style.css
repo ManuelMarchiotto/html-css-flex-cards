@@ -11,12 +11,13 @@ RESET
 /**************
 BODY
 ***************/
-.container{
+body{
     margin: 0 auto;
     width: 1130px;
     border: 1px solid black;
     text-align: center;
     font-family: "Fredoka", sans-serif;
+    /*height: 100vh;*/
 }
 
 /**************
@@ -26,6 +27,35 @@ HEADER
     color: #E53170;
     font-size: 40px;
     padding: 45px;
+}
+
+/**************
+BODY
+***************/
+.description{
+    margin: 20px;
+}
+
+/**************
+BOX IMG
+***************/
+
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+img{
+    height: 100px;
+}
+
+.box-person{
+    display: flex;
+    width: calc(100% / 4);
+    background-color: #0F0E17;
+    color: #ffffff;
 }
 
 
