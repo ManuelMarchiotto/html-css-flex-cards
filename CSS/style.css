@@ -13,11 +13,10 @@ BODY
 ***************/
 body{
     margin: 0 auto;
-    width: 1300px;
-    border: 1px solid black;
+    width: 1130px;
     text-align: center;
     font-family: "Fredoka", sans-serif;
-    /*height: 100vh;*/
+    height: 100vh;
 }
 
 /**************
@@ -33,7 +32,7 @@ HEADER
 BODY
 ***************/
 .description{
-    margin: 20px;
+    margin-top: 20px;
 }
 
 /**************
@@ -43,11 +42,11 @@ BOX IMG
 .container-img{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 30px;
 }
 
-img{
+.img-person{
     height: 100px;
 }
 
@@ -55,6 +54,7 @@ img{
     display: flex;
     background-color: #0F0E17;
     color: #ffffff;
+    margin-top: 50px;
 }
 
 .description-img-person{
@@ -63,6 +63,21 @@ img{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 60px;
+}
+
+.nome{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.job{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.email{
+    font-size: 12px;
+    color: #6BCDE9;
 }
 
 
