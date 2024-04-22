@@ -13,7 +13,7 @@ BODY
 ***************/
 body{
     margin: 0 auto;
-    width: 1130px;
+    width: 1300px;
     border: 1px solid black;
     text-align: center;
     font-family: "Fredoka", sans-serif;
@@ -53,9 +53,16 @@ img{
 
 .box-person{
     display: flex;
-    width: calc(100% / 4);
     background-color: #0F0E17;
     color: #ffffff;
+}
+
+.description-img-person{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 60px;
 }
 
 
